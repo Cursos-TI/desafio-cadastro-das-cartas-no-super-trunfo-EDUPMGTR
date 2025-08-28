@@ -6,10 +6,10 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-int main() {
-    
-    //variaveis da primeira carta
-    
+int main() { 
+
+        // variaveis da primeira carta
+
     char codigo1[3];
     char estado1[20];
     char cidade1[35];
@@ -28,9 +28,9 @@ int main() {
     float pib2;
     int pontosTuristicos2;
     
-     //Informações da primeira carta
+    //Informações da primeira carta
     
-    printf("Digite o codigo da primeira carta: ");
+   printf("Digite o codigo da primeira carta: ");
     scanf("%s",codigo1);
     printf("o codigo é: %s \n", codigo1);
 
@@ -48,11 +48,11 @@ int main() {
 
     printf("Digite a area em km² da primeira carta: ");
     scanf("%f", &area1);
-    printf("A area é: %f km²\n ", area1);
+    printf("A area é: %.3f km²\n ", area1);
 
     printf("Qual é o PIB da primeira carta: ");
     scanf("%f", &pib1);
-    printf("O PIB é: %f \n", pib1);
+    printf("O PIB é: %.3f \n", pib1);
 
     printf("Quantos pontos turisticos tem? da primeira carta: ");
     scanf("%d", &pontosTuristicos1);
@@ -78,11 +78,11 @@ int main() {
 
     printf("Digite a area em km² da segunda carta: ");
     scanf("%f", &area2);
-    printf("A area é: %f km²\n ", area2);
+    printf("A area é: %.3f km²\n ", area2);
 
     printf("Qual é o PIB da segunda carta: ");
     scanf("%f", &pib2);
-    printf("O PIB é: %f \n", pib2);
+    printf("O PIB é: %.3f \n", pib2);
 
     printf("Quantos pontos turisticos tem? da segunda carta: ");
     scanf("%d", &pontosTuristicos2);
@@ -95,8 +95,8 @@ int main() {
     printf("Estado da primeira carta: %s \n",estado1);
     printf("nome da cidade da primeira carta: %s \n",cidade1);
     printf("a população da primeira carta: %d \n",populacao1);
-    printf("a area da primeira carta: %d \n",area1);
-    printf("o PIB da primeira carta: %f \n",pib1);
+    printf("a area da primeira carta: %.3f \n",area1);
+    printf("o PIB da primeira carta: %.3f \n",pib1);
     printf("numero de pontos turisticos da primeira carta: %d \n",pontosTuristicos1);
 
     printf("\n");
@@ -107,8 +107,8 @@ int main() {
     printf("Estado da segunda carta: %s \n",estado2);
     printf("nome da cidade da segunda carta: %s \n",cidade2);
     printf("a população da segunda carta: %d \n",populacao2);
-    printf("a area da segunda carta: %d \n",area2);
-    printf("o PIB da segunda carta: %f \n",pib2);
+    printf("a area da segunda carta: %.3f \n",area2);
+    printf("o PIB da segunda carta: %.3f \n",pib2);
     printf("numero de pontos turisticos da segunda carta: %d \n",pontosTuristicos2);
 
     return 0;
